@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IP代理池</title>
+</head>
+<body>
+<h1>IP代理池</h1>
+<div>
+    <h2>ip代理来源http://www.pcdaili.com/index.php?m=daili&a=free&type=1</h2>
+    <h2>ip代理测试网站https://weibo.com/</h2>
+    <table border="1">
+        <tr>
+            <th>用途</th>
+            <th>API接口</th>
+            <th>参数说明</th>
+            <th>实例</th>
+        </tr>
+        <tr>
+            <td>插入数据</td>
+            <td>/getip/type/&lt;type>/page/&lt;page>
+            </td>
+            <td>
+                <ul>
+                    <li>type
+                        <ul>
+                            <li>0 国内高匿代理IP</li>
+                            <li>1 国内透明代理IP</li>
+                            <li>2 国内HTTPS代理IP</li>
+                            <li>3 国外高匿代理IP</li>
+                        </ul>
+                    </li>
+                    <li>page
+                        <ul>
+                            <li>抓取页码</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+            <td>localhost:5000/getip/type/1/page/2</td>
+
+        </tr>
+        <tr>
+            <td>查询数据</td>
+            <td>/search</td>
+            <td>没有参数</td>
+            <td>http://localhost:5000/search</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
