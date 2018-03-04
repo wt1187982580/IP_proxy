@@ -19,10 +19,10 @@ python flask_spider_main
 
 ## 执行效果
 首页
-![Aaron Swartz](pic/index.png)
+![首页](pic/index.png)
 插入
-![Aaron Swartz](pic/insert.png)
+![插入](pic/insert.png)
 查询
-![Aaron Swartz](pic/search.png)
+![查询](pic/search.png)
 数据表
-![Aaron Swartz](pic/数据库表.png)
+![数据表](pic/数据库表.png)
