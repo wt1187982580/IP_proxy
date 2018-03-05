@@ -11,6 +11,8 @@ IP代理池
 - spider  爬虫目录
 - test    测试
 - util    工具
+结构图
+![结构图](pic/IP_proxy.png)
 ===
 ## 运行程序
 ```shell
